@@ -13,7 +13,7 @@ let server = app.listen(port, () => {
 
 let io = socket(server, {
     cors: {
-        origin: "https://google-board-extension.vercel.app/", // Specify your frontend URL
+        origin: "https://google-board-extension-nikhils-projects-4f961102.vercel.app/", // Specify your frontend URL
         methods: ["GET", "POST"]
     }
 });
