@@ -13,7 +13,7 @@ let server = app.listen(port, () => {
 
 let io = socket(server, {
     cors: {
-        origin: "https://square-drucy-nikhilprojects-9e59048b.koyeb.app/", // Specify your frontend URL
+        origin: "https://main--starlit-pasca-3d8afc.netlify.app/", // Specify your frontend URL
         methods: ["GET", "POST"]
     }
 });
